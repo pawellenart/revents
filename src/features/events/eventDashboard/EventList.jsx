@@ -1,15 +1,10 @@
 import EventListItem from './EventListItem';
 
-const EventList = ({ events, selectEvent, deleteEvent }) => {
+const EventList = ({ events }) => {
   return (
     <>
       {events.map((event) => (
-        <EventListItem
-          event={event}
-          selectEvent={selectEvent}
-          deleteEvent={deleteEvent}
-          key={event.id}
-        />
+        <EventListItem event={event} key={event.id} />
       ))}
     </>
   );

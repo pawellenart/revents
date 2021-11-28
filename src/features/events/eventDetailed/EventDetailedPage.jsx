@@ -1,5 +1,6 @@
 import { Grid } from 'semantic-ui-react';
 import EventDetailedHeader from './EventDetailedHeader';
+import React from 'react';
 import EventDetailedInfo from './EventDetailedInfo';
 import EventDetailedChat from './EventDetailedChat';
 import EventDetailedSidebar from './EventDetailedSidebar';

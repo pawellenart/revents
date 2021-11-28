@@ -1,3 +1,4 @@
+import React from 'react';
 import EventListItem from './EventListItem';
 
 const EventList = ({ events }) => {

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Item, Segment } from 'semantic-ui-react';
 
 const EventDetailedSidebar = ({ attendees }) => {

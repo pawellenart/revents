@@ -1,14 +1,17 @@
+import React from 'react';
 import { Route, Routes } from 'react-router';
 import EventDashboard from '../../features/events/eventDashboard/EventDashboard';
 import EventDetailedPage from '../../features/events/eventDetailed/EventDetailedPage';
 import EventForm from '../../features/events/eventForm/EventForm';
 import Sandbox from '../../features/sandbox/Sandbox';
+import ModalManager from '../common/modals/ModalManager';
 import HomePage from './HomePage';
 import Layout from './Layout';
 
 const App = () => {
   return (
     <>
+      <ModalManager />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/*" element={<Layout />}>

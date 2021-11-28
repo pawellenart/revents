@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, Comment, Form, Header, Segment } from 'semantic-ui-react';
 
 const EventDetailedChat = () => {
